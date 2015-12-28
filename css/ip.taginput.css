@@ -1,0 +1,60 @@
+﻿.ip_TagInput {
+    position:relative;    
+    background-color:#515151;
+    overflow:hidden;
+    padding:8px 0px 0px 8px;
+    cursor:text;
+}
+.ip_TagInputTag {
+    display:inline-block;
+    background-color:#46b3ff;        
+    border-radius:2px;    
+    position:relative;
+    font-size:14px;
+    padding:2px 5px;
+    margin:0px 8px 8px 0px;
+}
+.ip_TagInputTagClose {
+
+    display:inline-block;
+    font-weight:bold;
+    font-size:12px;
+    vertical-align:middle;
+    /*background-color:#2892db;*/
+    position:relative;
+    border-radius:3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding:0px 5px 1px  5px;
+    margin-left:5px;
+    top:-1px;
+    left:1px;
+}
+.ip_TagInputTagClose:hover {
+    background-color:#0c78c3;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.ip_TagInputTextBox {
+    position:relative;
+    display:inline-block;
+    border:none;
+    max-width:100%;
+    min-width:10px;        
+    overflow: visible;
+    outline:none;
+    margin-bottom:8px;    
+}
+.ip_TagInputPlaceholder {
+    position:absolute;
+    margin:8px;
+    border-color:red;
+    top:0px;
+    left:0px;
+    color:#697474;
+}

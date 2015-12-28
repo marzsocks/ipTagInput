@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="scripts/ip.base.js"></script>
+    <script src="scripts/ip.taginput.js"></script>
+
+    <link href="css/ip.taginput.css" rel="stylesheet" />
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('#demo').ip_TagInput({ tags: 'tag1, tag2' });
+
+        });
+
+    </script>
+
+    <style>
+        body {
+            font-family: Arial;
+            color: white;
+            background-color: #3d3d3d;
+            margin: 0;
+            padding: 60px;
+        }
+
+        a { color:#46b3ff; text-decoration:dotted; }
+    </style>
+
+    <title>ip.taginput demo</title>
+
+</head>
+<body>
+
+    <h1>Tag Input Demo</h1>
+    <p>Type in the box below, press enter to add tag:</p>
+    <div id="demo"></div>
+    <p>For more usage examples and documentation please <a href="http://www.inspireproduction.co.za/#/demo-ui/tag-input">click here</a>.</p>
+</body>
+</html>
